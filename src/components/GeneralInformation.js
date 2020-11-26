@@ -33,7 +33,7 @@ class GeneralInformation extends Component {
         });
     }
 
-    //on submission, show the edit and 
+    //on submission, show the edit
     onSubmit = (e) =>{
         e.preventDefault(); 
         this.setState({
