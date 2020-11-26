@@ -4,9 +4,9 @@ const RenderGeneralInformation = (props) => {
 
     return (
         <div>
-            <p className="d-block">{props.name}</p>
-            <p className="d-block">{props.email}</p>
-            <p className="d-block">{props.phone}</p>
+            <p className="m-2">{props.name}</p>
+            <p className="m-2">{props.email}</p>
+            <p className="m-2">{props.phone}</p>
         </div>
     );
     
